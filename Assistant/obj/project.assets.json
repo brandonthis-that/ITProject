@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ICT_INTERN\\.nuget\\packages\\": {}
+    "/home/brandon/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ICT_INTERN\\Desktop\\IT\\Project\\Assistant\\Assistant.csproj",
+      "projectUniqueName": "/home/brandon/Desktop/IT/assistant/ITProject/Assistant/Assistant.csproj",
       "projectName": "Assistant",
-      "projectPath": "C:\\Users\\ICT_INTERN\\Desktop\\IT\\Project\\Assistant\\Assistant.csproj",
-      "packagesPath": "C:\\Users\\ICT_INTERN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ICT_INTERN\\Desktop\\IT\\Project\\Assistant\\obj\\",
+      "projectPath": "/home/brandon/Desktop/IT/assistant/ITProject/Assistant/Assistant.csproj",
+      "packagesPath": "/home/brandon/.nuget/packages/",
+      "outputPath": "/home/brandon/Desktop/IT/assistant/ITProject/Assistant/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ICT_INTERN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/brandon/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

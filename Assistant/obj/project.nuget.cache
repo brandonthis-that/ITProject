@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e15yfUlQKIuwlijG5qYCBkZPDmgyE9bpnRJ0KFw04xG8hLDQ0ne6guGsfqs7D3rfWpmI5/8SUdYEyDjVLprddg==",
+  "dgSpecHash": "wuEklo4iMoN3bZztiiVX4nMB116ERQ7M+yYx5TWWuN2Xu3tlWgiz5IFbEkmmuZjMdxxRjzFtOt26SNy4Y18Mzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ICT_INTERN\\Desktop\\IT\\Project\\Assistant\\Assistant.csproj",
+  "projectFilePath": "/home/brandon/Desktop/IT/assistant/ITProject/Assistant/Assistant.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
