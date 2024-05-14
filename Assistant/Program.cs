@@ -21,10 +21,10 @@ internal class Program
     }
 
 
-    private static void Route()
+    public static void Route()
     {
         Console.Clear();
-
+        Console.WriteLine("====== MENU ======");
         Console.WriteLine("1. Home");
         Console.WriteLine("2. ToDo");
         string? input = Console.ReadLine();
