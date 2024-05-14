@@ -32,7 +32,7 @@ class HomePage
                 Console.WriteLine();
                 break;
             case "6":
-                new Program().Route();
+                Program.Route();
                 break;
 
 
