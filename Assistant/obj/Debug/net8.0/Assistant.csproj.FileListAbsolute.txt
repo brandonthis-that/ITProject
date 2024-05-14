@@ -1,0 +1,14 @@
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\bin\Debug\net8.0\Assistant.exe
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\bin\Debug\net8.0\Assistant.deps.json
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\bin\Debug\net8.0\Assistant.runtimeconfig.json
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\bin\Debug\net8.0\Assistant.dll
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\bin\Debug\net8.0\Assistant.pdb
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\obj\Debug\net8.0\Assistant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\obj\Debug\net8.0\Assistant.AssemblyInfoInputs.cache
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\obj\Debug\net8.0\Assistant.AssemblyInfo.cs
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\obj\Debug\net8.0\Assistant.csproj.CoreCompileInputs.cache
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\obj\Debug\net8.0\Assistant.dll
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\obj\Debug\net8.0\refint\Assistant.dll
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\obj\Debug\net8.0\Assistant.pdb
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\obj\Debug\net8.0\Assistant.genruntimeconfig.cache
+C:\Users\ICT_INTERN\Desktop\IT\Project\Assistant\obj\Debug\net8.0\ref\Assistant.dll
