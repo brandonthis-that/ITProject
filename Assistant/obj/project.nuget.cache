@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "wuEklo4iMoN3bZztiiVX4nMB116ERQ7M+yYx5TWWuN2Xu3tlWgiz5IFbEkmmuZjMdxxRjzFtOt26SNy4Y18Mzg==",
+  "dgSpecHash": "yaN9nQIJaeVF6LuCSMWAo6TJ5hUiWnGVXOOOcSyjL+w/fzJ2ri6nHC8MAjSPPKZ9o1A5DK9sDkjAfrlYrYC8zA==",
   "success": true,
-  "projectFilePath": "/home/brandon/Desktop/IT/assistant/ITProject/Assistant/Assistant.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/ict-intern/Desktop/ITProject/Assistant/Assistant.csproj",
+  "expectedPackageFiles": [
+    "/home/ict-intern/.nuget/packages/microsoft.data.sqlite/8.0.5/microsoft.data.sqlite.8.0.5.nupkg.sha512",
+    "/home/ict-intern/.nuget/packages/microsoft.data.sqlite.core/8.0.5/microsoft.data.sqlite.core.8.0.5.nupkg.sha512",
+    "/home/ict-intern/.nuget/packages/sqlite/3.13.0/sqlite.3.13.0.nupkg.sha512",
+    "/home/ict-intern/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "/home/ict-intern/.nuget/packages/sqlitepclraw.core/2.1.6/sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "/home/ict-intern/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.6/sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "/home/ict-intern/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.6/sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "/home/ict-intern/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }

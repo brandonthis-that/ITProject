@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/brandon/Desktop/IT/assistant/ITProject/Assistant/Assistant.csproj": {}
+    "/home/ict-intern/Desktop/ITProject/Assistant/Assistant.csproj": {}
   },
   "projects": {
-    "/home/brandon/Desktop/IT/assistant/ITProject/Assistant/Assistant.csproj": {
+    "/home/ict-intern/Desktop/ITProject/Assistant/Assistant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/brandon/Desktop/IT/assistant/ITProject/Assistant/Assistant.csproj",
+        "projectUniqueName": "/home/ict-intern/Desktop/ITProject/Assistant/Assistant.csproj",
         "projectName": "Assistant",
-        "projectPath": "/home/brandon/Desktop/IT/assistant/ITProject/Assistant/Assistant.csproj",
-        "packagesPath": "/home/brandon/.nuget/packages/",
-        "outputPath": "/home/brandon/Desktop/IT/assistant/ITProject/Assistant/obj/",
+        "projectPath": "/home/ict-intern/Desktop/ITProject/Assistant/Assistant.csproj",
+        "packagesPath": "/home/ict-intern/.nuget/packages/",
+        "outputPath": "/home/ict-intern/Desktop/ITProject/Assistant/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/brandon/.nuget/NuGet/NuGet.Config"
+          "/home/ict-intern/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

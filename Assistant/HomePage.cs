@@ -1,3 +1,5 @@
+
+
 class HomePage
 {
     public void Display()
@@ -17,6 +19,7 @@ class HomePage
         switch (displayInput)
         {
             case "1":
+                new Connection().UseConnection();
                 Console.WriteLine();
                 break;
             case "2":
