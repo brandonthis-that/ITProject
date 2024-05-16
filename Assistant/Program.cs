@@ -13,6 +13,7 @@ internal class Program
         Console.ReadLine();
 
         Route();
+
     }
 
     void ConnectionString()
@@ -35,7 +36,7 @@ internal class Program
                 new HomePage().Display();
                 break;
             case "2":
-                new ToDo().FuncToDo();
+                new ToDo().FuncToDo().ToDoDialogue();
                 break;
             default:
                 Console.WriteLine("Invalid choice. Try again.");

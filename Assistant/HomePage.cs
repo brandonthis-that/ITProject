@@ -43,5 +43,3 @@ class HomePage
 
     }
 }
-
-// i did nothing today
