@@ -11,7 +11,7 @@ class HomePage
         Console.WriteLine("2. View database ");
         Console.WriteLine("3. Log in/ Sign up");
         Console.WriteLine("4. Settings");
-        Console.WriteLine("5. Log out");
+        Console.WriteLine("5. see database info");
         Console.WriteLine("6. Go back to main menu");
 
         string? displayInput = Console.ReadLine();

@@ -1,4 +1,6 @@
-﻿class ToDo
+﻿using System;
+
+class ToDo
 {
     public ToDo FuncToDo()
     {
@@ -11,7 +13,7 @@
                 AddTodo();
                 break;
             default:
-                System.Console.WriteLine("nothing happens");
+                Console.WriteLine("nothing happens");
                 break;
         }
         return this;
@@ -20,12 +22,12 @@
     public ToDo AddTodo()
     {
         System.Console.WriteLine("you are about to add a todo");
+//logic and code for creating a new todo 
 
 
 
 
 
-        
         return this;
     }
      public ToDo ToDoDialogue()

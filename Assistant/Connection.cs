@@ -35,3 +35,8 @@ public class MyClass
         }
     }
 }
+
+public class ConnectionData
+{
+
+}
