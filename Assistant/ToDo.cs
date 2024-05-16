@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.Extensions.Configuration;
 
-namespace ToDo;
+namespace todo;
 class ToDo
 {
 
 
-    
+
     public ToDo FuncToDo()
     {
         Console.WriteLine("ADD TODO?\t(y/n)");
@@ -27,7 +27,7 @@ class ToDo
     public ToDo AddTodo()
     {
         System.Console.WriteLine("you are about to add a todo");
-//logic and code for creating a new todo 
+        //logic and code for creating a new todo 
 
 
 
@@ -35,7 +35,7 @@ class ToDo
 
         return this;
     }
-     public ToDo ToDoDialogue()
+    public ToDo ToDoDialogue()
     {
         // You can add ToDoDialogue logic here
         return this;
