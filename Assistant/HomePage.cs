@@ -19,7 +19,7 @@ class HomePage
         switch (displayInput)
         {
             case "1":
-                new Connection().UseConnection();
+                new MyClass().UseConnection();
                 Console.WriteLine();
                 break;
             case "2":
