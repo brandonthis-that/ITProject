@@ -22,7 +22,7 @@ internal class Program
     }
 
 
-    public static void Route()
+    public static async void Route()
     {
         Console.Clear();
         Console.WriteLine("====== MENU ======");
@@ -40,6 +40,8 @@ internal class Program
                 break;
             default:
                 Console.WriteLine("Invalid choice. Try again.");
+                await Task.Delay(1000);
+                
                 break;
         }
 

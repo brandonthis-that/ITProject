@@ -37,6 +37,10 @@ class HomePage
             case "6":
                 Program.Route();
                 break;
+            default:
+            Console.WriteLine("Invalid choice. select from the below menu");
+                new HomePage().Display();
+                break;
 
 
         }
