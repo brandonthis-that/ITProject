@@ -2,7 +2,7 @@
 using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Configuration;
 
-class Connection
+public class Connection
 {
     private readonly string _dbPath;
     private readonly IConfiguration _configuration;
@@ -24,7 +24,7 @@ class Connection
         {
             // Handle connection errors here
             Console.WriteLine($"Error creating connection: {ex.Message}");
-            return null; 
+            return null;
         }
     }
 }
@@ -45,8 +45,8 @@ public class MyClass
     }
 }
 
+
 public class ConnectionData
 {
 
 }
-//this is the file that I created at work
