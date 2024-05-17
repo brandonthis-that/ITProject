@@ -24,7 +24,7 @@ class Connection
         {
             // Handle connection errors here
             Console.WriteLine($"Error creating connection: {ex.Message}");
-            return null; // Or throw an exception
+            return null; 
         }
     }
 }

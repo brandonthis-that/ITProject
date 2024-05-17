@@ -73,3 +73,11 @@ C:/Users/ICT_INTERN/Desktop/IT/Project/Assistant/obj/Debug/net8.0/ref/Assistant.
 /home/ict-intern/Desktop/ITProject/Assistant/obj/Debug/net8.0/Assistant.csproj.AssemblyReference.cache
 /home/ict-intern/Desktop/ITProject/Assistant/obj/Debug/net8.0/Assistant.csproj.CopyComplete
 /home/brandon/Desktop/IT/assistant/ITProject/Assistant/obj/Debug/net8.0/Assistant.csproj.AssemblyReference.cache
+/home/ict-intern/Desktop/ITProject/Assistant/bin/Debug/net8.0/Microsoft.Extensions.Configuration.dll
+/home/ict-intern/Desktop/ITProject/Assistant/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/ict-intern/Desktop/ITProject/Assistant/bin/Debug/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/home/ict-intern/Desktop/ITProject/Assistant/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Json.dll
+/home/ict-intern/Desktop/ITProject/Assistant/bin/Debug/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/ict-intern/Desktop/ITProject/Assistant/bin/Debug/net8.0/Microsoft.Extensions.FileProviders.Physical.dll
+/home/ict-intern/Desktop/ITProject/Assistant/bin/Debug/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/home/ict-intern/Desktop/ITProject/Assistant/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll

@@ -36,7 +36,7 @@ internal class Program
                 new HomePage().Display();
                 break;
             case "2":
-                new ToDo().FuncToDo().ToDoDialogue();
+                new ToDo().FuncToDo();
                 break;
             default:
                 Console.WriteLine("Invalid choice. Try again.");

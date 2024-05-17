@@ -1,7 +1,5 @@
 ﻿using System;
 using Microsoft.Extensions.Configuration;
-
-namespace todo;
 class ToDo
 {
 
@@ -15,7 +13,8 @@ class ToDo
         switch (todoInput)
         {
             case "y":
-                AddTodo();
+                // AddTodo();
+                new ToDo().AddTodo().ToDoDialogue();
                 break;
             default:
                 Console.WriteLine("nothing happens");
