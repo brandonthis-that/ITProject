@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.Extensions.Configuration;
+
 class ToDo
 {
 
@@ -9,7 +10,7 @@ class ToDo
         _connection = connection;
     }
 
-    public ToDo FuncToDo()
+    public void FuncToDo() // No return needed
     {
         Console.WriteLine("ADD TODO?\t(y/n)");
         string? todoInput = Console.ReadLine();
@@ -17,17 +18,15 @@ class ToDo
         switch (todoInput)
         {
             case "y":
-                // AddTodo();
-                new ToDo().AddTodo().ToDoDialogue();
+                AddTodo(); // Call AddTodo directly
                 break;
             default:
                 Console.WriteLine("nothing happens");
                 break;
         }
-        return this;
     }
 
-    public ToDo AddTodo(string title, string description, DateTime? dueDate)
+    public void AddTodo(string title, string description, DateTime? dueDate) // No return needed
     {
         System.Console.WriteLine("you are about to add a todo");
         using (var connection = _connection.CreateConnection())
@@ -35,7 +34,7 @@ class ToDo
             if (connection != null)
             {
                 connection.Open();
-                // Prepare a SQL statement to insert into the database (replace with actual table and columns)
+                // Prepare a SQL statement to insert into the database
                 string sql = "INSERT INTO Todos (Title, Description, DueDate) VALUES (@title, @description, @dueDate)";
                 var command = new SqliteCommand(sql, connection);
                 command.Parameters.AddWithValue("@title", title);
@@ -53,27 +52,28 @@ class ToDo
                 command.ExecuteNonQuery(); // Execute the insert statement
             }
         }
-
-        return this;
     }
 
-    public List<TodoItem> GetAllTodos()
+    public List<TodoItem> GetAllTodos() // Implement to retrieve all todos
     {
-
+        // Implement logic to retrieve all todos from the database and return them as a List<TodoItem>
+        throw new NotImplementedException();
     }
 
-    public TodoItem GetTodoById(ind id)
+    public TodoItem GetTodoById(int id) // Corrected parameter name
     {
-
-    }
-    public void DeleteTodo(int id)
-    {
-
+        // Implement logic to retrieve a specific todo by id from the database and return it as a TodoItem
+        throw new NotImplementedException();
     }
 
-    public ToDo ToDoDialogue()
+    public void DeleteTodo(int id) // No return needed
     {
-        // You can add ToDoDialogue logic here
-        return this;
+        // Implement logic to delete a todo with the given id from the database
+        throw new NotImplementedException();
+    }
+
+    public void ToDoDialogue() // No return needed, implement logic here
+    {
+        // You can add ToDoDialogue logic here, potentially for user interaction related to modifying existing todos
     }
 }
