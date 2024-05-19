@@ -48,5 +48,5 @@ public class MyClass
 
 public class ConnectionData
 {
-
+    // add logic for connection string
 }
