@@ -18,7 +18,7 @@ class ToDo
         switch (todoInput)
         {
             case "y":
-                AddTodo(); // Call AddTodo directly
+                    AddTodo(); // Call AddTodo directly
                 break;
             default:
                 Console.WriteLine("nothing happens");
